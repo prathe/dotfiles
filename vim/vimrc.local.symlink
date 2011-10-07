@@ -1,0 +1,13 @@
+inoremap <C-K> <ESC>
+
+map <C-L> :tabnext<CR>
+map <C-H> :tabprev<CR>
+map <C-T> :tabnew<CR>
+
+map <C-N> :NERDTreeToggle<CR>
+map <silent> <D-r> :NERDTreeFind<CR>
+imap <silent> <D-r> <ESC>:NERDTreeFind<CR>
+
+autocmd User Rails/**/*.css set shiftwidth=4 tabstop=4 softtabstop=4
+autocmd User Rails/**/*.js set shiftwidth=4 tabstop=4 softtabstop=4
+autocmd User Rails/**/*.erb set shiftwidth=4 tabstop=4 softtabstop=4

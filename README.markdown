@@ -16,10 +16,25 @@ If you're interested in the philosophy behind why projects like these are
 awesome, you might want to [read my post on the
 subject](http://zachholman.com/2010/08/dotfiles-are-meant-to-be-forked/).
 
+## pre install
+
+Edit git/gitconfig.symlink.example but without sensitive information. Then activate the file.
+
+- `cp git/gitconfig.symlink.example git/gitconfig.symlink`
+
+And then you can add sensitive informations into git/gitconfig.symlink directly
+
 ## install
 
 - `git clone git://github.com/holman/dotfiles ~/.dotfiles`
 - `cd ~/.dotfiles`
+- If using Janus
+  - `git submodule init`
+  - `git submodule update`
+  - `for i in ~/.vimrc ~/.gvimrc; do [ -e $i ] && mv $i $i.old; done`
+  - `cd vim/vim.symlink`
+  - `rake`
+  - `cd ~/.dotfiles`
 - `rake install`
 
 The install rake task will symlink the appropriate files in `.dotfiles` to your
@@ -68,6 +83,10 @@ bubble bath.
   grc`.
 - If you install the excellent [rvm](http://rvm.beginrescueend.com) to manage
   multiple rubies, your current branch will show up in the prompt. Bonus.
+- If you use git completion then
+        `brew install git-completion`
+- If you have any shell script that must be run once, run each of them them manually
+        `./osx/set-defaults.sh`
 
 ## bugs
 
