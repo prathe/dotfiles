@@ -11,3 +11,4 @@ imap <silent> <D-r> <ESC>:NERDTreeFind<CR>
 autocmd User Rails/**/*.css set shiftwidth=4 tabstop=4 softtabstop=4
 autocmd User Rails/**/*.js set shiftwidth=4 tabstop=4 softtabstop=4
 autocmd User Rails/**/*.erb set shiftwidth=4 tabstop=4 softtabstop=4
+autocmd User *.feature set shiftwidth=2 tabstop=2 softtabstop=2
