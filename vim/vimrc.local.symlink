@@ -1,5 +1,4 @@
 inoremap <C-K> <ESC>
-nnoremap <esc> :noh<return><esc>
 
 map <C-L> :tabnext<CR>
 map <C-H> :tabprev<CR>
