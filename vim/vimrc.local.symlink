@@ -1,3 +1,5 @@
+set autoread
+
 inoremap <C-K> <ESC>
 
 map <C-L> :tabnext<CR>
