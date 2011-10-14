@@ -2,11 +2,10 @@ set autoread
 
 inoremap <C-K> <ESC>
 
-map <C-L> :tabnext<CR>
-map <C-H> :tabprev<CR>
 map <C-T> :tabnew<CR>
 
 map <C-N> :NERDTreeToggle<CR>
+" Kind of "reveal in NERDTree". Not perfect though.
 map <silent> <D-r> :NERDTreeFind<CR>
 imap <silent> <D-r> <ESC>:NERDTreeFind<CR>
 
