@@ -88,6 +88,11 @@ bubble bath.
 - If you have any shell script that must be run once, run each of them them manually
         `./osx/set-defaults.sh`
 
+## Tools I use
+
+* `gem install github`
+* `brew install hub` # http://defunkt.io/hub/
+
 ## bugs
 
 I want this to work for everyone; that means when you clone it down it should
