@@ -92,6 +92,7 @@ bubble bath.
 
 * `gem install github`
 * `brew install hub` # http://defunkt.io/hub/
+* `gem install gemcutter`
 
 ## bugs
 
