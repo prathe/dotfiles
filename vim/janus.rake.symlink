@@ -1,1 +1,2 @@
 vim_plugin_task "minibufexpl", "git://github.com/fholgado/minibufexpl.vim.git"
+vim_plugin_task "python_match", "git://github.com/vim-scripts/python_match.vim.git"
