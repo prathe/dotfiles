@@ -16,18 +16,14 @@ If you're interested in the philosophy behind why projects like these are
 awesome, you might want to [read my post on the
 subject](http://zachholman.com/2010/08/dotfiles-are-meant-to-be-forked/).
 
-## pre install
-
-Edit git/gitconfig.symlink.example but without sensitive information. Then activate the file.
-
-- `cp git/gitconfig.symlink.example git/gitconfig.symlink`
-
-And then you can add sensitive informations into git/gitconfig.symlink directly
-
 ## install
 
 - `git clone git://github.com/holman/dotfiles ~/.dotfiles`
 - `cd ~/.dotfiles`
+- `cp git/gitconfig.symlink.example git/gitconfig.symlink`
+
+	- And then you can add sensitive informations into git/gitconfig.symlink directly it is ignored by git
+
 - If using Janus
   - `git submodule init`
   - `git submodule update`
