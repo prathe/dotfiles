@@ -1,2 +1,5 @@
 vim_plugin_task "minibufexpl", "git://github.com/fholgado/minibufexpl.vim.git"
 vim_plugin_task "python_match", "git://github.com/vim-scripts/python_match.vim.git"
+vim_plugin_task "matchit", "http://www.vim.org/scripts/download_script.php?src_id=8196"
+vim_plugin_task "textobj-user", "https://github.com/kana/vim-textobj-user.git"
+vim_plugin_task "textobj-rubyblock", "http://www.vim.org/scripts/download_script.php?src_id=14652"
