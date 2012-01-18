@@ -9,10 +9,5 @@ map <C-N> :NERDTreeToggle<CR>
 map <silent> <D-r> :NERDTreeFind<CR>
 imap <silent> <D-r> <ESC>:NERDTreeFind<CR>
 
-autocmd User Rails/**/*.css set shiftwidth=4 tabstop=4 softtabstop=4
-autocmd User Rails/**/*.js set shiftwidth=4 tabstop=4 softtabstop=4
-autocmd User Rails/**/*.erb set shiftwidth=4 tabstop=4 softtabstop=4
-autocmd User *.feature set shiftwidth=2 tabstop=2 softtabstop=2
-
 set exrc    " enable per-directory .vimrc files
 set secure  " disable unsafe commands in local .vimrc files
