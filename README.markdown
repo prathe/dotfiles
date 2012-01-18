@@ -40,6 +40,29 @@ though.
 The main file you'll want to change right off the bat is `zsh/zshrc.symlink`,
 which sets up a few paths that'll be different on your particular machine.
 
+## Upgrading Janus
+
+### On first machine
+
+    $ cd ~/.dotfiles/vim/vim.symlink
+    $ git clean -df
+    $ git pull
+    $ rake # janus
+    $ cd ~/.dotfiles
+    $ git add vim/vim.symlink
+    $ git commit -m 'Update Janus'
+    $ rake # dotfiles
+
+### On second machine
+
+    $ cd ~/.dotfiles
+    $ git pull
+    $ git submodule update
+    $ cd vim/vim.symlink
+    $ rake # janus
+    $ cd ~/.dotfiles
+    $ rake # dotfiles
+
 ## topical
 
 Everything's built around topic areas. If you're adding a new area to your
