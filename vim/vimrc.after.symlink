@@ -8,6 +8,3 @@ map <C-N> :NERDTreeToggle<CR>
 " Kind of "reveal in NERDTree". Not perfect though.
 map <silent> <D-r> :NERDTreeFind<CR>
 imap <silent> <D-r> <ESC>:NERDTreeFind<CR>
-
-set exrc    " enable per-directory .vimrc files
-set secure  " disable unsafe commands in local .vimrc files
