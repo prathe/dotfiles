@@ -2,9 +2,15 @@ set autoread
 
 inoremap <C-K> <ESC>
 
-map <C-T> :tabnew<CR>
+" New tab is command-t, just as all other apps
+map <D-t> :tabnew<CR>
 
+" CtrlP ignore
+set wildignore+=*/tmp/cache/*
+
+" NerdTREE
+" Toggle
 map <C-N> :NERDTreeToggle<CR>
-" Kind of "reveal in NERDTree". Not perfect though.
+" Reveal
 map <silent> <D-r> :NERDTreeFind<CR>
 imap <silent> <D-r> <ESC>:NERDTreeFind<CR>
