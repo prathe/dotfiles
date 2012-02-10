@@ -14,3 +14,6 @@ map <C-N> :NERDTreeToggle<CR>
 " Reveal
 map <silent> <D-r> :NERDTreeFind<CR>
 imap <silent> <D-r> <ESC>:NERDTreeFind<CR>
+
+" Open the browser on the Gist after create
+let g:gist_open_browser_after_post = 1
