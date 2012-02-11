@@ -1,3 +1,6 @@
 [submodule "vim/vim.symlink"]
 	path = vim/vim.symlink
 	url = https://github.com/carlhuda/janus.git
+[submodule "vim/janus.symlink/vim-arduino"]
+	path = vim/janus.symlink/vim-arduino
+	url = git://github.com/tclem/vim-arduino.git
