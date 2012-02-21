@@ -27,8 +27,13 @@ git_prompt_info () {
  echo "${ref#refs/heads/}"
 }
 
+# Find commits not merged in the upstream. If the current branch does not
+# track any upstream branch, fallback to the master branch upstream which
+# would have been set explicitely as the preferred upstream. Otherwise use origin.
 unpushed () {
-  remote=`/usr/bin/git config --get branch.$(git_branch).remote || echo 'origin'`
+  remote=`/usr/bin/git config --get branch.$(git_branch).remote`
+  [ -z $remote ] && remote=`/usr/bin/git config --get branch.master.remote`
+  [ -z $remote ] && remote=origin
   /usr/bin/git cherry -v $remote/$(git_branch) 2>/dev/null
 }
 
