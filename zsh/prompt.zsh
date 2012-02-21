@@ -28,7 +28,8 @@ git_prompt_info () {
 }
 
 unpushed () {
-  /usr/bin/git cherry -v `/usr/bin/git config --get branch.master.remote`/$(git_branch) 2>/dev/null
+  remote=`/usr/bin/git config --get branch.$(git_branch).remote || echo 'origin'`
+  /usr/bin/git cherry -v $remote/$(git_branch) 2>/dev/null
 }
 
 need_push () {
