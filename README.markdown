@@ -32,6 +32,8 @@ subject](http://zachholman.com/2010/08/dotfiles-are-meant-to-be-forked/).
   - `rake`
   - `cd ~/.dotfiles`
 - `rake install`
+- If using Sublime text
+  - `sublime2/setup`
 
 The install rake task will symlink the appropriate files in `.dotfiles` to your
 home directory. Everything is configured and tweaked within `~/.dotfiles`,
