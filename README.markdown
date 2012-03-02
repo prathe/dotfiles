@@ -107,11 +107,17 @@ bubble bath.
 - If you have any shell script that must be run once, run each of them them manually
         `./osx/set-defaults.sh`
 
-## Tools I use
+## tools I use
 
 * `gem install github`
 * `brew install hub` # http://defunkt.io/hub/
 * `gem install gemcutter`
+
+## OSX Lion settings
+
+    # In Lion, holding down a key won't repeat it, but will instead show a popup menu
+    # to select between character variations. I turn it off.
+    defaults write -g ApplePressAndHoldEnabled -bool false
 
 ## bugs
 
