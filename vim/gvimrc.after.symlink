@@ -1,1 +1,4 @@
 colorscheme ir_black
+if has("gui_running")
+  set guioptions-=T
+endif
