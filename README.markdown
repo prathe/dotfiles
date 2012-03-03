@@ -121,6 +121,10 @@ bubble bath.
     # to select between character variations. I turn it off.
     defaults write -g ApplePressAndHoldEnabled -bool false
 
+## Sublime Text 2
+
+* https://github.com/bgreenlee/sublime-github
+
 ## bugs
 
 I want this to work for everyone; that means when you clone it down it should
