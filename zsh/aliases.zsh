@@ -7,3 +7,4 @@ alias lla='ls -lA'
 alias v='mvim --remote-silent'
 alias git='hub'
 alias nginx-restart="sudo launchctl unload -w  /System/Library/LaunchDaemons/org.nginx.plist && sudo launchctl load -w  /System/Library/LaunchDaemons/org.nginx.plist"
+alias luad='~/src/lua/LuaDist-Batteries/bin/lua'
