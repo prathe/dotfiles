@@ -18,7 +18,7 @@ subject](http://zachholman.com/2010/08/dotfiles-are-meant-to-be-forked/).
 
 ## install
 
-- `git clone git://github.com/holman/dotfiles ~/.dotfiles`
+- `git clone git@github.com:prathe/dotfiles.git ~/.dotfiles`
 - `cd ~/.dotfiles`
 - `cp git/gitconfig.symlink.example git/gitconfig.symlink`
 
